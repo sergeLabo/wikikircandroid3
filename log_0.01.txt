@@ -1,0 +1,45 @@
+pierre@debian64:~/projets/wikikircandroid3$ buildozer -v android debug
+# Check configuration tokens
+# Ensure build layout
+# Check configuration tokens
+# Read available permissions from api-versions.xml
+# Preparing build
+# Check requirements for android
+# Run 'dpkg --version'
+# Cwd None
+b'Programme \xc2\xab\xc2\xa0dpkg\xc2\xa0\xc2\xbb de gestion de paquets Debian version 1.18.24 (amd64).\n'b"Ce programme est un logiciel libre\xc2\xa0; veuillez consulter la \xc2\xab\xc2\xa0GNU General\nPublic License\xc2\xa0\xc2\xbb version 2 ou sup\xc3\xa9rieure pour prendre connaissance des\nconditions de reproduction. AUCUNE garantie n'est offerte.\n"# Search for Git (git)
+#  -> found at /usr/bin/git
+# Search for Cython (cython)
+#  -> found at /usr/local/bin/cython
+# Search for Java compiler (javac)
+#  -> found at /usr/lib/jvm/java-8-openjdk-amd64/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/keytool
+# Install platform
+# Run 'pip install -q --user "appdirs" "colorama>=0.3.3" "sh>=1.10,<1.12.5" "jinja2" "six"'
+# Cwd None
+# Apache ANT found at /home/pierre/.buildozer/android/platform/apache-ant-1.9.4
+# Android SDK found at /home/pierre/.buildozer/android/platform/android-sdk-20
+# Android NDK is missing, downloading
+# Downloading http://dl.google.com/android/ndk/android-ndk-r9c-linux-x86_64.tar.bz2
+# Unpacking Android NDK
+# Run 'tar xjf android-ndk-r9c-linux-x86_64.tar.bz2'
+# Cwd /home/pierre/.buildozer/android/platform
+# Rename /home/pierre/.buildozer/android/platform/android-ndk-r9c to /media/sf_3D/Documents/crystax-ndk-10.3.2
+                                                                     /media/sf_projets/Documents/crystax-ndk-10.3.2
+
+
+Traceback (most recent call last):
+  File "/usr/local/bin/buildozer", line 11, in <module>
+    load_entry_point('buildozer', 'console_scripts', 'buildozer')()
+  File "/home/pierre/projets/wikikircandroid3/buildozer/buildozer/scripts/client.py", line 13, in main
+  File "/home/pierre/projets/wikikircandroid3/buildozer/buildozer/__init__.py", line 1058, in run_command
+  File "/home/pierre/projets/wikikircandroid3/buildozer/buildozer/target.py", line 92, in run_commands
+  File "/home/pierre/projets/wikikircandroid3/buildozer/buildozer/target.py", line 102, in cmd_debug
+  File "/home/pierre/projets/wikikircandroid3/buildozer/buildozer/__init__.py", line 176, in prepare_for_build
+  File "/home/pierre/projets/wikikircandroid3/buildozer/buildozer/targets/android.py", line 469, in install_platform
+  File "/home/pierre/projets/wikikircandroid3/buildozer/buildozer/targets/android.py", line 319, in _install_android_ndk
+  File "/home/pierre/projets/wikikircandroid3/buildozer/buildozer/__init__.py", line 614, in file_rename
+AttributeError: module 'posixpath' has no attribute 'directory'
+pierre@debian64:~/projets/wikikircandroid3$ 
+
